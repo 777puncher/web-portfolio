@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сайт-портфолио Web-разработчика</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" type="text/css" href="images/Black and White Collection 10.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sora:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header data-aos="fade-down" data-aos-mirror="true" data-aos-duration="600">
+		<div class="header-name" data-aos="fade-down" data-aos-mirror="true" data-aos-duration="400">
+			<div class="header-logo"><a href="#"><img src="images/Black and White Collection 10.svg" alt="logo"></a></div>
+			<div class="header-text">
+				<h1 class="iii">Ildar</h1>
+				<p class="text-logo">Web-разработчик</p>
+			</div>
+		</div>
+		
+		<div data-aos="fade-left" data-aos-mirror="true" data-aos-offset="8">
+			<a href="#somnoi" class="header-button">Связаться со мной</a>
+		</div>
+		<div data-aos="fade-left" data-aos-mirror="true" data-aos-offset="8">
+			<a href="#" class="header-button2" onclick="changeBackgroundColor()">Изменить фон</a>
+		</div>
+	</header>
+	
+	<nav>
+		<ul class="menu" data-aos="fade-up" data-aos-mirror="true" data-aos-duration="800">
+			<li class="menu-item"><a href="#">Главная</a></li>
+			<li class="menu-item"><a href="#">Навыки</a></li>
+			<li class="menu-item"><a href="#">Опыт</a></li>
+			<li class="menu-item"><a href="#">Проекты</a></li>
+			<li class="menu-item"><a href="#">Блог</a></li>
+			<li class="menu-item"><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		
+		
+		<section class="sect">
+			<div class="slider">
+				
+				
+				<div class="slide">
+					<div class="slide-content">	
+						<div class="hhh" data-aos="fade-right" data-aos-mirror="true" data-aos-duration="1000">
+							<h1 class="il">Привет,  меня зовут Ильдар.<br><p class="p">Я Web - разработчик</p></h1>
+							<p class="ui">Креативный фронтенд-разработчик с более чем 3-летним опытом работы<br>в корпоративных компаниях и стартапах.  Увлечен UI/UX</p>
+							<a href="#rabota" class="mypr">Работы</a>
+						</div>
+						<img src="images/Rectangle.png" alt="Это я" class="me" data-aos="fade-left" data-aos-mirror="true" data-aos-duration="1000">
+					</div>
+				</div>
+			
+				<div class="slide">
+					<div class="slide-content2">	
+						<div class="hhh">
+							<h1 class="il">Интересуюсь новыми технологиями</h1>
+							<p class="ui">ChatGPT - это действительно прорыв! Будущее наступает... </p>
+						</div>
+						<img src="images/Rectangle (2).png" alt="Это я" class="e">
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-content2">	
+						<div class="hhh">
+							<h1 class="il">Но не люблю искать баги в коде</h1>
+							<p class="ui">То есть не баги, а фичи</p>
+						</div>
+						<img src="images/Rectangle (3).png" alt="Это я" class="e">
+					</div>
+				</div>
+			
+
+			</div>
+		</section>
+
+		<section class="skills" data-aos="fade-up" data-aos-mirror="true" data-aos-duration="600">
+				<h2>Навыки</h2>
+				<div class="skills-items">
+					<h3>HTML</h3>
+					<h3>JavaScript</h3>
+					<h3>CSS</h3>
+				</div>
+		</section>
+	
+		<section class="works" data-aos="fade-down" data-aos-mirror="true" data-ao
+		s-duration="600">
+			<div class="work-text" data-aos="fade-down" data-aos-mirror="true" data-aos-duration="800">
+				<h2 id="rabota" >Работы</h2>
+				<p>Ниже вы можете ознакомиться с моими недавними работами</p>
+			</div>
+			
+			<div class="work-items">
+				<div class="item">
+					<a href="https://www.cian.ru/" target="_blank">
+						<h3>Веб-сайт сервиса по недвижимости</h3>
+						<p>При создании этого проекта использовались такие технологии, как HTML5, CSS3, JavaScript и PHP.</p>
+					</a>
+				</div>
+				
+				<div class="item">
+					<a href="https://www.pik.ru/" target="_blank">
+						<h3>Лендинг строительной фирмы</h3>
+						<p>Данный проект отличается ярким дизайном и кричащими слоганами.</p>
+					</a>
+				</div>
+				
+				<div class="item">
+					<a href="https://hh.ru/" target="_blank">
+						<h3>Веб-сервис по поиску работы</h3>
+						<p>Необходимо было создать сервис для поиска работы. Технологии: Laravel</p>
+					</a>
+				</div>
+				
+				<div class="item">
+					<a href="https://www.mvideo.ru/" target="_blank">
+						<h3>UI/UX проект</h3>
+						<p>Необычный проект, создание макета и юзабилити для интернет-магазина</p>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="form" data-aos="fade-down" data-aos-mirror="true" data-aos-duration="1000">
+			<div class="form-cont">
+				<h2 class="me2" id="somnoi" data-aos="fade-down" data-aos-mirror="true" data-aos-duration="1200">Связаться со мной</h2>
+				<form action="/submit" method="post" id="myForm" onsubmit="submitForm(event)">
+					<input type="text" name="name" placeholder="Имя" required id="fff">
+					<input type="email" name="email" placeholder="Email" required id="fff">
+					<textarea name="message" cols="30" rows="10" placeholder="Сообщение" required id="fff"></textarea>
+					<button class="knopka" type="submit" data-aos="fade-up" data-aos-mirror="true" data-aos-duration="600">Отправить сообщение</button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer data-aos="fade-down" data-aos-mirror="true" data-aos-duration="1200" data-aos-offset="8">
+		<p data-aos="fade-down" data-aos-mirror="true" data-aos-duration="1000" data-aos-offset="8"> Этот сайт был создан Ильдаром. All rights reserved © 2023</p>
+		<div class="social">
+			<a href="#"><img src="images/fi_twitter.png"></a>
+			<a href="#"><img src="images/fi_instagram.png"></a>
+			<a href="mailto:myemail@gmail.com"><img src="images/fi_mail.png"></a>
+		</div>
+	</footer>
+	
+
+
+
+
+<script type="text/javascript" src="jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript" src="Script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html>
+
